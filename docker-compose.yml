@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  postgres:
+    build: ./
+    image: postgre11_image
+    container_name: postgre11_container
+    tty: true
