@@ -7,4 +7,4 @@ $ docker-compose up -d
 postgresコンテナにbash
 $ docker-compose exec postgres bash
 
-# psql -U postgres
+\# psql -U postgres
